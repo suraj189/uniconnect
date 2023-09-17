@@ -1,0 +1,19 @@
+.cta {
+    padding: 15.5px 25px;
+    border-radius: 0;
+    cursor: pointer;
+    border: none;
+    font-family: Inter, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    width: 150px;
+    transition: opacity .3s;
+}
+
+@media screen and (max-width: 480px) {
+   .cta {
+    font-size: 12px;
+    width: 80%;
+    margin: 0 auto 20px;
+   }
+}

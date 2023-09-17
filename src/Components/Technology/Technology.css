@@ -1,0 +1,154 @@
+.tech {
+    z-index: 0;
+    height: auto;
+    background-color: #1f1f1f;
+    padding-top: 40px;
+    position: relative;
+}
+
+
+
+.tech>div {
+    background-color: #1f1f1f;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    position: static;
+}
+
+.techWrapper {
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 80px 60px;
+    display: flex;
+    position: relative;
+    background-color: #1b1b1b;
+    box-shadow: 10px #1b1b1b !important;
+}
+
+.techTitle h2 {
+    color: #fff;
+    margin-top: 20px;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.break-line {
+    width: 30%;
+    height: 1px;
+    background-color: rgba(255, 255, 255, .2);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.imageText img {
+    width: 450px;
+    margin-top: 60px;
+}
+
+.imageText p {
+    width: 520px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-family: Inter Light, sans-serif;
+    font-size: 18px;
+    line-height: 1.4em;
+    font-weight: 300;
+    color: #fff;
+}
+
+.imageText p::after {
+    width: 30%;
+    height: 1px;
+    background-color: rgba(255, 255, 255, .2);
+    margin-top: 20px;
+    margin-bottom: 20px
+}
+
+
+@media screen and (max-width: 991px) {
+
+    .techTitle h2 {
+        font-size: 30px;
+    }
+
+    .imageText img {
+        width: 400px;
+        margin-top: 40px;
+    }
+
+    .imageText {
+        text-align: center;
+    }
+
+    .imageText p {
+        width: 430px;
+        font-size: 18px;
+        line-height: 1.4em;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .techTitle h2 {
+        font-size: 26px;
+        line-height: 1.2em;
+    }
+
+    .imageText img {
+        width: 80%;
+        font-size: 14px;
+    }
+
+    .imageText p {
+        width: 80%;
+        font-size: 14px;
+    }
+
+    .tech {
+        margin-top: 40px;
+    }
+
+    .techWrapper {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+
+@media screen and (max-width: 479px) {
+
+    .tech>div {
+        width: 90%;
+    }
+
+    .tech {
+        padding-bottom: 0;
+    }
+
+    .techWrapper {
+        padding: 0 10px 20px;
+        position: static;
+    }
+
+    .techTitle h2 {
+        text-align: center;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.4em;
+    }
+
+    .imageText img {
+        width: 250px;
+        margin-top: 0;
+    }
+
+    .imageText p {
+        margin-top: 10px;
+        font-size: 12px;
+        line-height: 1.4em;
+    }
+
+}

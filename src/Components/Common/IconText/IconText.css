@@ -1,0 +1,39 @@
+.iconText {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 46px auto 0;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.iconText img {
+    width: 60px;
+    height: 60px;
+}
+.iconText > div {
+    width: 31%;
+}
+
+.textWrapper {
+    height: 70px;
+    border: 1px solid rgba(255, 255, 255, .2);
+    border-radius: 100px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    display: flex;
+  
+}
+
+.texts {
+    font-family: Inter Light, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+@media screen and (max-width: 480px) {
+    .iconText {
+       display: none;
+    }
+}
